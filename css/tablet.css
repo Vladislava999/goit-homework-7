@@ -1,9 +1,12 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1024px;
+    max-width: 768px;
   }
 
   /*============ Heder ============ */
+  .menu {
+    display: none;
+  }
   .hader-div {
     display: flex;
     align-items: center;
@@ -18,10 +21,15 @@
     align-items: center;
   }
   .page-nav {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-  .header-contact {
+
+  .contact {
     display: block;
+    margin-left: auto;
+    font-style: normal;
   }
   .logotipe-header {
     margin-top: 25.5px;
@@ -31,6 +39,7 @@
     display: none;
   }
   .header-contact {
+    display: block;
     margin-left: auto;
   }
 
@@ -96,6 +105,7 @@
     margin-right: auto;
     max-width: 496px;
   }
+
   /*============ Info ============*/
   .text-section {
     width: 351px;
@@ -104,5 +114,15 @@
   /*============ Team ============*/
   .customers-iteam {
     width: calc((100% - 24px * 2) / 3);
+  }
+  /*=========Footer========*/
+  .footer-div {
+    padding: 0 108px;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+  .subscribe-form {
+    flex-wrap: nowrap;
   }
 }
