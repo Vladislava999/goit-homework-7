@@ -1,0 +1,22 @@
+:roote {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --heading-menu: #2e2f42;
+  --main-title: #2e2f42;
+  --title: #ffffff;
+  --bottom: #ffffff;
+  --text: #434455;
+  --contact: #434455;
+  --header-item: #434455;
+  --footer-text: #f4f4fd;
+  --logotipe-blu: #4d5ae5;
+  --logotipe-blac: #2e2f42;
+  --background-header: #ffffff;
+  --background-hero: #2e2f42;
+  --background: #fff;
+  --background-team: #f4f4fd;
+  --background-footer: #2e2f42;
+  --background-bottom: #4d5ae5;
+  --customers-link: #8e8f99;
+  --chacked: #404bbf;
+}
