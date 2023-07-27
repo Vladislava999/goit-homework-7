@@ -5,6 +5,9 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.container {
+  max-width: 428px;
+}
 
 /*============ Heder ============ */
 .page-nav {
@@ -68,6 +71,7 @@ span.ingredient-header {
   padding-top: 80px;
   background-color: var(--white, #fff);
 }
+
 .menu-close {
   position: absolute;
   top: 24px;
@@ -99,9 +103,8 @@ span.ingredient-header {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--ocean, #404bbf);
+.menu-link-modal {
+  color: #404bbf;
 }
 .menu-contact-link {
   display: block;
@@ -113,6 +116,10 @@ span.ingredient-header {
   text-transform: capitalize;
   margin-bottom: 40px;
 }
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--ocean, #404bbf);
+}
 .menu-mail-link {
   display: block;
   color: var(--slate, #434455);
@@ -122,11 +129,13 @@ span.ingredient-header {
   letter-spacing: 0.4px;
   margin-bottom: 48px;
 }
-
+.menu-mail-link:hover,
+.menu-mail-link:focus {
+  color: var(--ocean, #404bbf);
+}
 .menu-media {
   display: flex;
-  justify-content: space-between;
-  gap: 16px;
+  gap: 56px;
 }
 .menu-media-iteam {
   display: flex;
@@ -212,6 +221,11 @@ span.ingredient-header {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+}
+.button-hero:focus,
+.button-hero:hover {
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .backdrop {
   width: 100%;
@@ -663,7 +677,7 @@ span.ingredient {
   position: relative;
 }
 .subscribe-form-input {
-  width: 100%;
+  width: 398px;
   height: 40px;
   line-height: var(--general-lh);
   letter-spacing: var(--ls-big);
