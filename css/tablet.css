@@ -10,6 +10,7 @@
   .hader-div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -34,13 +35,13 @@
   .logotipe-header {
     margin-top: 25.5px;
     margin-bottom: 25.5px;
+    margin-right: 0;
   }
   .header-btn {
     display: none;
   }
   .header-contact {
     display: block;
-    margin-left: auto;
   }
 
   .header-menu-link {
@@ -56,6 +57,9 @@
 
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-menu-link.header-link {
+    color: #404bbf;
   }
   .header-menu-link:hover {
     color: var(--ocean, #404bbf);
@@ -151,5 +155,15 @@
   }
   .subscribe-form-input {
     width: 264px;
+  }
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  .subscribe-form-submit {
+    margin-top: 0px;
   }
 }
