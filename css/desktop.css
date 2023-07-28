@@ -627,6 +627,7 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+    flex-wrap: nowrap;
   }
   .subscribe-form-span {
     display: block;
